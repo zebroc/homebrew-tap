@@ -1,8 +1,8 @@
 class LocalsendCli < Formula
   desc "CLI server & client for localsend in go"
   homepage "https://github.com/zebroc/localsend-cli"
-  url "https://github.com/zebroc/localsend-cli/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "49f7994fdad2966b22c3a2ef3fa54cb2de8a8e54bd8dc51520a6076f30138dc2"
+  url "https://github.com/zebroc/localsend-cli/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "ce82d5766cdbf00f413309f8c5ea4e94fee23dc4d8fdd2d58da79bad83c3144a"
   license "MIT"
   head "https://github.com/zebroc/localsend-cli.git", branch: "main"
 
