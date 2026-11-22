@@ -11,6 +11,7 @@ brew tap zebroc/tap
 | Formula | Description |
 | --- | --- |
 | [`localsend-cli`](Formula/localsend-cli.rb) | [CLI server & client for localsend in go](https://github.com/zebroc/localsend-cli) |
+| [`fs-watch-ai-runner`](Formula/fs-watch-ai-runner.rb) | Daemon that watches directories and runs programs or Claude Code on file events (private repo, installs via SSH) |
 
 ```sh
 brew install localsend-cli
