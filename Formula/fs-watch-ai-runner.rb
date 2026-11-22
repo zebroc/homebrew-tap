@@ -56,6 +56,7 @@ class FsWatchAiRunner < Formula
     assert_match "valid", shell_output("#{bin}/fs-watch-ai-runner -config #{testpath}/config.yaml -check 2>&1")
 
     (testpath/"bad.yaml").write "directories: []\n"
-    assert_match "no directories", shell_output("#{bin}/fs-watch-ai-runner -config #{testpath}/bad.yaml -check 2>&1", 1)
+    output = shell_output("#{bin}/fs-watch-ai-runner -config #{testpath}/bad.yaml -check 2>&1", 1)
+    assert_match "no directories", output
   end
 end
